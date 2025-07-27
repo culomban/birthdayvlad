@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>С Днём Рождения!</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: url("piccjpg.jpg") no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .overlay {
+            background-color: rgba(255, 255, 255, 0.8);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: #4682B4;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            max-width: 500px;
+            color: white;
+        }
+
+        .emoji {
+            font-size: 2em;
+        }
+
+        .photo-card {
+            background-color: #ffffff;
+            border-radius: 20px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            padding: 20px;
+            max-width: 400px;
+        }
+
+        .photo-card img {
+            width: 100%;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="container">
+            <!-- Блок с поздравлением -->
+            <div class="card">
+                <div class="emoji">🎉🎂🎈</div>
+                <h1>С Днём Рождения, ВЛАДИСЛАВ!</h1>
+                <img src="photojpg.jpg" alt="Праздничное изображение" width="100%" style="border-radius: 10px; margin: 15px 0;">
+                <p>Желаю тебе море радости, крепкого здоровья,<br>
+                удачи во всех начинаниях и самых ярких моментов в жизни!</p>
+                <p>Удачи сдать базовую матешу, и пусть этот день<br>
+                будет таким же особенным, как и ты!</p>
+                <div class="emoji">🥳✨🎁</div>
+            </div>
+
+            <!-- Второй прямоугольник с фото -->
+            <div class="photo-card">
+                <img src="dopphoto.jpg" alt="Дополнительная фотография">
+		<img src="images.jpg" alt="Дополнительная фотография">
+            </div>
+        </div>
+    </div>
+<audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает воспроизведение аудио.
+</audio>
+</body>
+</html>
